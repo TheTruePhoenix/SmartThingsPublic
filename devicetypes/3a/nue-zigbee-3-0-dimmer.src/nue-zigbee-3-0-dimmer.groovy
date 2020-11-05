@@ -13,7 +13,7 @@
  */
 
 metadata {
-	definition (name: "Nue ZigBee 3.0 Dimmer", namespace: "3A", author: "Kevin X.", ocfDeviceType: "oic.d.light", runLocally: true, minHubCoreVersion: '000.019.00012', executeCommandsLocally: true, genericHandler: "Zigbee") {
+	definition (name: "Nue ZigBee 3.0 Dimmer", namespace: "3A", author: "Kevin X- 3A Smart Home", ocfDeviceType: "oic.d.light", runLocally: true, minHubCoreVersion: '000.019.00012', executeCommandsLocally: true, genericHandler: "Zigbee") {
 		capability "Actuator"
 		capability "Configuration"
 		capability "Refresh"
